@@ -65,10 +65,16 @@
           <mxGeometry x="324" y="890" width="180" height="180" as="geometry" />
         </mxCell>
         <mxCell id="uJCHSqAUlutNR60RQWR9-24" value="Error : &#39;You have Exported Points&#39;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="614" y="943" width="234" height="74" as="geometry" />
+          <mxGeometry x="614" y="955.5" width="234" height="49" as="geometry" />
         </mxCell>
         <mxCell id="uJCHSqAUlutNR60RQWR9-26" value="Yes" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="522" y="950" width="48" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="uJCHSqAUlutNR60RQWR9-33" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="uJCHSqAUlutNR60RQWR9-27" target="uJCHSqAUlutNR60RQWR9-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uJCHSqAUlutNR60RQWR9-35" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="uJCHSqAUlutNR60RQWR9-27" target="uJCHSqAUlutNR60RQWR9-34">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="uJCHSqAUlutNR60RQWR9-27" value="If Points Found" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="324" y="1150" width="180" height="180" as="geometry" />
@@ -81,6 +87,12 @@
         </mxCell>
         <mxCell id="uJCHSqAUlutNR60RQWR9-31" value="Yes" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="410" y="832" width="48" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="uJCHSqAUlutNR60RQWR9-32" value="Error:&amp;nbsp;&lt;span style=&quot;font-family: &amp;quot;Trebuchet MS&amp;quot;; font-size: 13px; text-align: left; white-space-collapse: preserve;&quot;&gt;You have exported Points in OBJ, which is not supported.&lt;/span&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="614" y="1210" width="234" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="uJCHSqAUlutNR60RQWR9-34" value="If Curve Found" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="324" y="1410" width="180" height="180" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
