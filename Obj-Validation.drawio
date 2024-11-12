@@ -4,16 +4,61 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="Tcl47zLz8GflMzWhzB-w-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="Tcl47zLz8GflMzWhzB-w-1" edge="1" target="uJCHSqAUlutNR60RQWR9-1">
+        <mxCell id="Tcl47zLz8GflMzWhzB-w-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="Tcl47zLz8GflMzWhzB-w-1" edge="1" target="uJCHSqAUlutNR60RQWR9-4">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="414" y="190" as="targetPoint" />
+            <mxPoint x="411" y="400" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="Tcl47zLz8GflMzWhzB-w-1" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;OBJ VALIDATION&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="284" y="40" width="260" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="uJCHSqAUlutNR60RQWR9-1" value="Check if its Valid Obj File" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="281" y="190" width="266" height="130" as="geometry" />
+        <mxCell id="uJCHSqAUlutNR60RQWR9-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="uJCHSqAUlutNR60RQWR9-4" target="uJCHSqAUlutNR60RQWR9-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uJCHSqAUlutNR60RQWR9-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="uJCHSqAUlutNR60RQWR9-4" target="uJCHSqAUlutNR60RQWR9-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uJCHSqAUlutNR60RQWR9-4" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Check if its Valid Obj File&lt;/font&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="324" y="170" width="180" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="uJCHSqAUlutNR60RQWR9-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="uJCHSqAUlutNR60RQWR9-7" target="uJCHSqAUlutNR60RQWR9-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uJCHSqAUlutNR60RQWR9-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="uJCHSqAUlutNR60RQWR9-7" target="uJCHSqAUlutNR60RQWR9-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uJCHSqAUlutNR60RQWR9-7" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Check the File Size&lt;/font&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="324" y="400" width="180" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="uJCHSqAUlutNR60RQWR9-9" value="Error : &#39;Not Valid File&#39;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="614" y="230" width="156" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="uJCHSqAUlutNR60RQWR9-11" value="No" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="530" y="230" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="uJCHSqAUlutNR60RQWR9-12" value="Yes" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="414" y="360" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="uJCHSqAUlutNR60RQWR9-13" value="Error : &#39;File Size must be less then 200 Mb&#39;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="614" y="455" width="176" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="uJCHSqAUlutNR60RQWR9-15" value="&amp;gt; 200 Mb" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="515" y="455" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="uJCHSqAUlutNR60RQWR9-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="uJCHSqAUlutNR60RQWR9-16" target="uJCHSqAUlutNR60RQWR9-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uJCHSqAUlutNR60RQWR9-16" value="&lt;div&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;Check Layer are Available Or not&lt;/font&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="324" y="630" width="180" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="uJCHSqAUlutNR60RQWR9-18" value="&amp;lt; 200 Mb" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="414" y="585" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="uJCHSqAUlutNR60RQWR9-19" value="" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="614" y="690" width="176" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="uJCHSqAUlutNR60RQWR9-21" value="No" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="530" y="690" width="40" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
