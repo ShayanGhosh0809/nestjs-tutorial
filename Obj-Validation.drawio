@@ -49,6 +49,9 @@
         <mxCell id="uJCHSqAUlutNR60RQWR9-18" value="&amp;lt; 200 Mb" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="414" y="585" width="70" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="VjX9sWDVCMlh1k3KSn6q-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="uJCHSqAUlutNR60RQWR9-19" target="uJCHSqAUlutNR60RQWR9-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="uJCHSqAUlutNR60RQWR9-19" value="Error : &#39;Please Export Layer Name&#39;" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="614" y="690" width="176" height="60" as="geometry" />
         </mxCell>
@@ -63,6 +66,9 @@
         </mxCell>
         <mxCell id="uJCHSqAUlutNR60RQWR9-22" value="If Points Found" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="324" y="890" width="180" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="VjX9sWDVCMlh1k3KSn6q-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="uJCHSqAUlutNR60RQWR9-24" target="uJCHSqAUlutNR60RQWR9-32">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="uJCHSqAUlutNR60RQWR9-24" value="Error : &#39;You have Exported Points&#39;" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="614" y="955.5" width="234" height="49" as="geometry" />
@@ -89,16 +95,19 @@
           <mxGeometry x="410" y="832" width="48" height="32" as="geometry" />
         </mxCell>
         <mxCell id="uJCHSqAUlutNR60RQWR9-32" value="Error:&amp;nbsp;&lt;span style=&quot;font-family: &amp;quot;Trebuchet MS&amp;quot;; font-size: 13px; text-align: left; white-space-collapse: preserve;&quot;&gt;You have exported Points in OBJ, which is not supported.&lt;/span&gt;" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="614" y="1210" width="234" height="60" as="geometry" />
+          <mxGeometry x="614" y="1210" width="234" height="70" as="geometry" />
         </mxCell>
         <mxCell id="uJCHSqAUlutNR60RQWR9-37" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="uJCHSqAUlutNR60RQWR9-34" target="uJCHSqAUlutNR60RQWR9-36" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="tM5M1X1QQkstpcc5kSok-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="uJCHSqAUlutNR60RQWR9-34" target="tM5M1X1QQkstpcc5kSok-1">
+        <mxCell id="tM5M1X1QQkstpcc5kSok-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="uJCHSqAUlutNR60RQWR9-34" target="tM5M1X1QQkstpcc5kSok-1" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="uJCHSqAUlutNR60RQWR9-34" value="If Curve Found" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="324" y="1410" width="180" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="VjX9sWDVCMlh1k3KSn6q-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="uJCHSqAUlutNR60RQWR9-36" target="tM5M1X1QQkstpcc5kSok-3">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="uJCHSqAUlutNR60RQWR9-36" value="Error:&amp;nbsp;&lt;span style=&quot;white-space-collapse: preserve; font-family: &amp;quot;Trebuchet MS&amp;quot;; font-size: 13px; text-align: left;&quot;&gt;You have exported Curve in OBJ, which is not supported.&lt;/span&gt;" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="614" y="1470" width="250" height="60" as="geometry" />
@@ -109,35 +118,44 @@
         <mxCell id="uJCHSqAUlutNR60RQWR9-39" value="Yes" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="526" y="1470" width="48" height="32" as="geometry" />
         </mxCell>
-        <mxCell id="uJCHSqAUlutNR60RQWR9-40" value="No" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="546" y="706" width="40" height="30" as="geometry" />
-        </mxCell>
         <mxCell id="uJCHSqAUlutNR60RQWR9-41" value="No" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="414" y="1088" width="40" height="30" as="geometry" />
         </mxCell>
         <mxCell id="uJCHSqAUlutNR60RQWR9-42" value="No" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="414" y="1360" width="40" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="tM5M1X1QQkstpcc5kSok-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="tM5M1X1QQkstpcc5kSok-1" target="tM5M1X1QQkstpcc5kSok-3">
+        <mxCell id="tM5M1X1QQkstpcc5kSok-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="tM5M1X1QQkstpcc5kSok-1" target="tM5M1X1QQkstpcc5kSok-3" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="tM5M1X1QQkstpcc5kSok-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="tM5M1X1QQkstpcc5kSok-1" target="tM5M1X1QQkstpcc5kSok-7">
+        <mxCell id="tM5M1X1QQkstpcc5kSok-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="tM5M1X1QQkstpcc5kSok-1" target="tM5M1X1QQkstpcc5kSok-7" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="tM5M1X1QQkstpcc5kSok-1" value="If Sub Layers Found" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="tM5M1X1QQkstpcc5kSok-1" value="If Sub Layers Found" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="324" y="1670" width="180" height="180" as="geometry" />
         </mxCell>
-        <mxCell id="tM5M1X1QQkstpcc5kSok-3" value="Error:&amp;nbsp;&lt;span style=&quot;font-family: &amp;quot;Trebuchet MS&amp;quot;; font-size: 13px; text-align: left; white-space-collapse: preserve;&quot;&gt;You have nested layers in OBJ. Please flattern the layer structure as Sub Layers are not supported.&lt;/span&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="VjX9sWDVCMlh1k3KSn6q-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="tM5M1X1QQkstpcc5kSok-3" target="VjX9sWDVCMlh1k3KSn6q-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tM5M1X1QQkstpcc5kSok-3" value="Error:&amp;nbsp;&lt;span style=&quot;font-family: &amp;quot;Trebuchet MS&amp;quot;; font-size: 13px; text-align: left; white-space-collapse: preserve;&quot;&gt;You have nested layers in OBJ. Please flattern the layer structure as Sub Layers are not supported.&lt;/span&gt;" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="614" y="1730" width="378" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="tM5M1X1QQkstpcc5kSok-5" value="Yes" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="tM5M1X1QQkstpcc5kSok-5" value="Yes" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="526" y="1730" width="48" height="32" as="geometry" />
         </mxCell>
-        <mxCell id="tM5M1X1QQkstpcc5kSok-6" value="No" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="tM5M1X1QQkstpcc5kSok-6" value="No" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="414" y="1616" width="40" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="tM5M1X1QQkstpcc5kSok-7" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Take screenshots from top, bottom, right and perspective angles&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+        <mxCell id="tM5M1X1QQkstpcc5kSok-7" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Take screenshots from top, bottom, right and perspective angles&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
           <mxGeometry x="199" y="1952" width="430" height="122" as="geometry" />
+        </mxCell>
+        <mxCell id="VjX9sWDVCMlh1k3KSn6q-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="uJCHSqAUlutNR60RQWR9-32" target="uJCHSqAUlutNR60RQWR9-36">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VjX9sWDVCMlh1k3KSn6q-5" value="Errors Will be Displayed." style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="816" y="1888" width="352" height="144" as="geometry" />
+        </mxCell>
+        <mxCell id="VjX9sWDVCMlh1k3KSn6q-8" value="errors array will store all the errors from here" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="712" y="768" width="272" height="32" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
